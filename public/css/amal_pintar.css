@@ -1,0 +1,247 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 744px;
+}
+
+.u-section-1 .u-text-1 {
+  width: 684px;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-list-1 {
+  width: 757px;
+  margin: 28px auto 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-template-columns: repeat(2, calc(50% - 17.5px));
+  min-height: 477px;
+  grid-gap: 35px;
+}
+
+.u-section-1 .u-list-item-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 22px;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Asap;
+  font-size: 2.25rem;
+  margin: 0 auto 0 4px;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 12px auto 0 4px;
+}
+
+.u-section-1 .u-line-1 {
+  height: 3px;
+  transform-origin: left center 0px;
+  margin: 23px 4px 0;
+}
+
+.u-section-1 .u-text-4 {
+  margin-left: 4px;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-text-5 {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: rgb(255, 255, 255) !important;
+  margin: 23px auto 0 4px;
+}
+
+.u-section-1 .u-list-icon-1 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 69px auto 0;
+  padding: 10px 36px 11px 35px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px 22px;
+}
+
+.u-section-1 .u-text-6 {
+  font-family: Asap;
+  font-size: 2.25rem;
+  margin: 0 auto 0 4px;
+}
+
+.u-section-1 .u-text-7 {
+  margin: 12px auto 0 4px;
+}
+
+.u-section-1 .u-line-2 {
+  height: 3px;
+  transform-origin: left center 0px;
+  margin: 23px 4px 0;
+}
+
+.u-section-1 .u-text-8 {
+  margin-left: 4px;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-text-9 {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: rgb(255, 255, 255) !important;
+  margin: 23px auto 0 4px;
+}
+
+.u-section-1 .u-list-icon-2 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-1 .u-list-icon-3 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-1 .u-list-icon-4 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-1 .u-btn-2 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-style: none;
+  background-image: none;
+  margin: 69px auto 0;
+  padding: 10px 36px 11px 35px;
+}
+
+.u-section-1 .u-text-10 {
+  width: 684px;
+  margin: 39px auto 49px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-line-1 {
+      margin-right: initial;
+      margin-left: initial;
+  }
+
+  .u-section-1 .u-line-2 {
+      margin-right: initial;
+      margin-left: initial;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-list-1 {
+      width: 385px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+      grid-template-columns: 100%;
+      min-height: 888px;
+  }
+
+  .u-section-1 .u-text-10 {
+      width: auto;
+      margin-left: 18px;
+      margin-right: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+      width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-10 {
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+      width: 340px;
+  }
+
+  .u-section-1 .u-list-1 {
+      width: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+      font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-text-6 {
+      font-size: 1.5rem;
+  }
+
+  .custom-modal {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .custom-modal h3 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+  }
+
+  .custom-modal label {
+      display: block;
+      margin-bottom: 5px;
+  }
+
+  .custom-modal input,
+  .custom-modal button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+  }
+
+  .custom-modal button {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      padding: 15px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .custom-modal-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      font-size: 20px;
+      color: #555;
+      background: none;
+      border: none;
+  }
+
+}

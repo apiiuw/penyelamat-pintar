@@ -1,0 +1,241 @@
+.konfirmasi-donasi {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .konfirmasi-donasi .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1920px;
+    height: 963px;
+    position: relative;
+  }
+
+  .konfirmasi-donasi .overlap {
+    position: absolute;
+    width: 1920px;
+    height: 830px;
+    top: 0;
+    left: 0;
+  }
+
+  .konfirmasi-donasi .section {
+    position: absolute;
+    width: 1140px;
+    height: 744px;
+    top: 86px;
+    left: 390px;
+  }
+
+  .konfirmasi-donasi .judul-amal-pintar {
+    position: absolute;
+    width: 577px;
+    height: 66px;
+    top: 7px;
+    left: 268px;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 66px;
+    white-space: nowrap;
+  }
+
+  .konfirmasi-donasi .donasi-keuangan {
+    position: absolute;
+    width: 361px;
+    height: 532px;
+    top: 130px;
+    left: 389px;
+    background-color: #f1c50e;
+  }
+
+  .konfirmasi-donasi .kotak-kuning {
+    position: relative;
+    height: 532px;
+  }
+
+  .konfirmasi-donasi .judul-donasi {
+    position: absolute;
+    width: 276px;
+    height: 36px;
+    top: 29px;
+    left: 26px;
+    font-family: "Asap-Bold", Helvetica;
+    font-weight: 700;
+    color: #111111;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 43.2px;
+    white-space: nowrap;
+  }
+  
+  .konfirmasi-donasi .p {
+    position: absolute;
+    width: 225px;
+    height: 48px;
+    top: 76px;
+    left: 26px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #111111;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25.6px;
+  }
+
+  .konfirmasi-donasi .garis-putih {
+    position: absolute;
+    width: 317px;
+    height: 3px;
+    top: 135px;
+    left: 26px;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-color: #ffffff;
+  }
+  
+  .konfirmasi-donasi .text-wrapper-2 {
+    position: absolute;
+    width: 133px;
+    height: 22px;
+    top: 164px;
+    left: 26px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #111111;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    white-space: nowrap;
+  }
+  
+  .konfirmasi-donasi .kolom-nama {
+    top: 190px;
+    position: absolute;
+    width: 319px;
+    height: 31px;
+    left: 26px;
+  }
+  
+  .konfirmasi-donasi .overlap-group {
+    position: relative;
+    width: 317px;
+    height: 31px;
+    background-color: #ffffff;
+  }
+  
+  .konfirmasi-donasi .text-wrapper-3 {
+    position: absolute;
+    width: 317px;
+    height: 31px;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25.6px;
+  }
+  
+  .konfirmasi-donasi .text-wrapper-4 {
+    position: absolute;
+    width: 133px;
+    height: 22px;
+    top: 230px;
+    left: 26px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #111111;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    white-space: nowrap;
+  }
+  
+  .konfirmasi-donasi .kolom-alamat {
+    top: 256px;
+    position: absolute;
+    width: 319px;
+    height: 31px;
+    left: 26px;
+  }
+  
+  .konfirmasi-donasi .text-wrapper-5 {
+    position: absolute;
+    width: 133px;
+    height: 22px;
+    top: 297px;
+    left: 26px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #111111;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    white-space: nowrap;
+  }
+  
+  .konfirmasi-donasi .kolom-jumlah-nominal {
+    position: absolute;
+    width: 319px;
+    height: 31px;
+    top: 323px;
+    left: 26px;
+  }
+  
+  .konfirmasi-donasi .text-wrapper-6 {
+    position: absolute;
+    width: 133px;
+    height: 22px;
+    top: 363px;
+    left: 26px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #111111;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    white-space: nowrap;
+  }
+  
+  .konfirmasi-donasi .kolom-bukti-transer {
+    position: absolute;
+    width: 319px;
+    height: 31px;
+    top: 389px;
+    left: 26px;
+  }
+  
+  .konfirmasi-donasi .button-metode {
+    position: absolute;
+    width: 291px;
+    height: 43px;
+    top: 452px;
+    left: 35px;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .konfirmasi-donasi .text-wrapper-7 {
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    top: 9px;
+    left: 35px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #111111;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }

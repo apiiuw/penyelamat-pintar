@@ -1,0 +1,85 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/foto3orang.jpg");
+  background-position: 100% 34.99%;
+  background-size: 180%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 700px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 800px;
+  min-height: 468px;
+  margin: 60px auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-icon-1 {
+  height: 76px;
+  width: 76px;
+  background-image: none;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-style: normal;
+  margin: 39px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 30px 0 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+      min-height: 577px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+      min-height: 442px;
+  }
+
+  .u-section-1 .u-group-1 {
+      width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+      min-height: 332px;
+  }
+
+  .u-section-1 .u-group-1 {
+      width: 540px;
+      min-height: 493px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+      min-height: 209px;
+  }
+
+  .u-section-1 .u-group-1 {
+      width: 340px;
+      min-height: 488px;
+  }
+
+  .u-section-1 .u-text-2 {
+      font-size: 1.5rem;
+  }
+}

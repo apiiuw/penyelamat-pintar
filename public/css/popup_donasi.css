@@ -1,0 +1,248 @@
+.popup-donasi {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    z-index: 9999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    width: 485px;
+    height: 571px;
+    text-align: center;
+}
+
+.popup-donasi .div {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 2px solid #f1c50e;
+    box-sizing: border-box;
+}
+
+.popup-donasi .text-wrapper {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+}
+
+.popup-donasi .group {
+    position: absolute;
+    width: 260px;
+    height: 117px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.popup-donasi .overlap-group {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #f1c50e;
+}
+  
+  .popup-donasi .element-a-n-rafi {
+    position: absolute;
+    height: 45px;
+    top: 12px;
+    left: 44px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+  }
+  
+  .popup-donasi .image {
+    width: 92px;
+    height: 29px;
+    top: 68px;
+    left: 82px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .popup-donasi .overlap-wrapper {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 289px;
+    left: 91px;
+  }
+  
+  .popup-donasi .overlap {
+    position: relative;
+    width: 258px;
+    height: 124px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #f1c50e;
+  }
+  
+  .popup-donasi .element-a-n {
+    position: absolute;
+    height: 45px;
+    top: -4px;
+    left: 44px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+  }
+  
+  .popup-donasi .img {
+    width: 73px;
+    height: 38px;
+    top: 74px;
+    left: 1px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .popup-donasi .image-2 {
+    width: 78px;
+    height: 22px;
+    top: 82px;
+    left: 89px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .popup-donasi .image-3 {
+    width: 65px;
+    height: 36px;
+    top: 75px;
+    left: 185px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .popup-donasi .overlap-group-wrapper {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.popup-donasi .div-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #f1c50e;
+    border-radius: 12px;
+}
+
+.popup-donasi .text-wrapper-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+}
+
+  .button-confirm {
+    background-color: #f1c50e;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-confirm:hover {
+    background-color: #A8890A;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}
+  
+.popup-donasi .text-donasi-barang {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Open Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+}
+
+.popup-donasi .text-silahkan-kirim {
+  position: absolute;
+  height: 45px;
+  top: 200px;
+  left: 0px;
+  font-family: "Open Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.4px;
+}
+
+.popup-donasi .text-jalan-rs {
+  position: absolute;
+  height: 45px;
+  top: 280px;
+  left: 45px;
+  font-family: "Open Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  }
+
+  .alert {
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  .alert-success {
+    background-color: #28a745;
+  }

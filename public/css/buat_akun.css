@@ -1,0 +1,263 @@
+.section {
+    position: relative;
+    width: 1920px;
+    height: 905px;
+}
+
+.photo-and-login {
+    display: flex;
+}
+
+.section .foto-login-sign {
+    width: 800px; /* Ukuran foto yang lebih kecil */
+    height: 530px; /* Ukuran foto yang lebih kecil */
+    margin-top: 150px;
+    margin-bottom: -100px;
+    margin-left: 47px;
+}
+
+.section .buat-akun {
+    width: 530px;
+    height: 684px;
+}
+
+.section .overlap {
+    width: 340px;
+    height: 530px;
+    margin-top: 150px;
+    margin-bottom: -100px;
+    margin-left: 30px;
+    background-color: #d9d9d9;
+    position: relative;
+}
+.section .text-wrapper {
+    position: absolute;
+    width: 373px;
+    height: 54px;
+    top: 58px;
+    left: 75px;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.section .div {
+    position: absolute;
+    height: 16px;
+    top: 90px;
+    left: 31px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.section .form-login {
+    position: absolute;
+    width: 331px;
+    height: 319px;
+    top: 170px;
+    left: 33px;
+}
+
+.section .input-text {
+    width: 272px;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 11pt;
+    margin-bottom: 0px;
+    border-radius: 5px; /* Radius 5 */
+}
+
+.section .namalengkap {
+    width: 335px;
+    height: 73px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.section .text-nama-lengkap {
+    width: 78px;
+    height: 20px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section .username {
+    width: 335px;
+    height: 73px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+
+.section .text-wrapper-2 {
+    width: 78px;
+    height: 20px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section .overlap-group {
+    position: absolute;
+    width: 275px;
+    height: 40px;
+    top: 29px;
+    left: 0;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.section .text-wrapper-3 {
+    top: 13px;
+    position: absolute;
+    width: 144px;
+    height: 20px;
+    left: 15px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #b2b2b2;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.section .password {
+    width: 335px;
+    height: 73px;
+    top: 110px;
+    position: absolute;
+    left: 0;
+}
+
+.section .text-wrapper-4 {
+    width: 73px;
+    height: 20px;
+    top: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: absolute;
+    left: 0;
+}
+
+.section .text-wrapper-5 {
+    top: 12px;
+    position: absolute;
+    width: 144px;
+    height: 20px;
+    left: 15px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #b2b2b2;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.section .button-masuk {
+    position: absolute;
+    width: 162px;
+    height: 53px;
+    top: 200px;
+    left: 75px;
+}
+
+.section .masuk-button{
+    background-color: #f1c50e;
+    color: #000;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section .BUAT-AKUN-wrapper {
+    position: relative;
+    width: 160px;
+    height: 53px;
+    top: -70px;
+    left: -30px;
+    background-color: #f1c50e;
+    border-radius: 10px;
+}
+
+.section .BUAT-AKUN {
+    position: absolute;
+    width: 125px;
+    height: 26px;
+    top: 35%;
+    left: 10%;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.section .belum-memiliki-akun {
+    position: absolute;
+    height: 16px;
+    top: 430px;
+    left: 57px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.section .span {
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.section .buat-akun-button {
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    text-decoration: none; 
+    cursor: pointer;
+    color: #000000;
+}
+
+.section .buat-akun-button:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.section .text-wrapper-6 {
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+}
